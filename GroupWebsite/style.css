@@ -1,0 +1,82 @@
+body{
+   /* background-color: linear-gradient(180deg, #F6E5D9, #928478,#603813);*/
+   background-image: url(images/cute-laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main{
+    display: flexbox;
+}
+
+.intro-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 17vh;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    color: black;
+}
+
+hr{
+   border-color: black; 
+}
+
+.pic-container{
+    position: relative;
+    left: -9rem;
+
+}
+
+.pic{
+    width: 155%;
+    border: 1px solid black;
+}
+
+.hatdog{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100px;
+    font-size: larger;
+    color: black;
+    padding-left: 10px;
+    margin-top: -40px;
+    position: relative;
+    left: 2rem;
+    padding-top: 10px;
+}
+
+.proceed-btn{
+    position: absolute;
+    top: 12rem;
+    right: 28.1rem;
+}
+
+.proceed{
+     /*button design*/
+     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to left, #F6E5D9 0%, #928478 51% ,#603813  100%);
+    text-transform: uppercase;
+    background-size: 200% auto;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #928478;
+    color: #fff;
+    border: 1px solid black;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.proceed:hover {
+    background-position: right center;
+    color: #544541;
+    transform: scale(0.92,0.92);
+    text-decoration: none;
+  }
+
+/*========================================================================================*/

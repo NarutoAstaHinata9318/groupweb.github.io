@@ -1,0 +1,296 @@
+body{
+    /*background-image: linear-gradient(180deg, #F6E5D9, #928478 80%);*/
+    background-image: url(images/layered-circle-minimalist-brown-aesthetic-ls72cx9nqdafoaiw\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;    
+}
+
+hr{
+    border-color: #D1966A;
+}
+
+.it{
+color: #8A663F;
+}
+
+.main{
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 15rem;
+    width: 50rem;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 210px;
+    box-shadow: 3px 3px 10px 3px #8A663F;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.info{
+    display: flex;
+}
+
+.info-text{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: default;
+}
+
+a{
+    cursor: default;
+}
+
+.info-text h2{
+    font-weight: lighter;
+    margin-bottom: -20px;
+}
+
+.pic{
+    border: 1px solid #8A663F;
+    width: 300px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+}
+
+.btn-container{
+    position: absolute;
+    top: 30.5rem;
+    left: 36.8rem;
+}
+ 
+
+.aboutme{
+    background-color: #8A663F;
+    width: 110px;
+    height: 40px;
+    margin-right: 20px;
+    border: none;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.aboutme:hover {
+    color: black;
+    transform: scale(0.95,0.95);
+}
+
+.music{
+    background-color: #8A663F;
+    width: 110px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.music:hover {
+    color: black;
+    transform: scale(0.95,0.95);;
+}
+
+/*===============================================================================================*/
+
+.about-section{
+    position: relative;
+    top: 8vh;
+}
+
+.about-title{
+    color: #8A663F;
+    font-size: 40px;
+    margin-left: 50px;
+    cursor: default;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 150px;
+}
+
+.edu, .place, .basic-info, .contact{
+    display: inline;
+    width: 450px;
+    height: 40px;
+    border: 1px solid #8A663F;
+    background-color: #8A663F;
+    color: white;
+}
+
+h3{
+    position: relative;
+    left: 10px;
+    top: -10px;
+    cursor: default;
+}
+
+.edu-txt, .place-txt, .basic-txt, .contact-txt{
+    cursor: default;
+    color: whitesmoke;
+}
+
+.basic-txt{
+    margin-bottom: -30px;
+    margin-top: -10px;
+    margin-left: -74px;
+}
+
+.social-container{
+    display: flex;
+    position: absolute;
+    left: 55rem;
+    top: 10.4rem;
+    box-shadow: 3px 3px 10px 3px #8A663F;
+    background-color: white;
+    border-radius: 20px;
+    height: 50%;
+}
+
+.social{
+    text-align: center;
+    width: 270px;
+    height: 40px;
+    border: 1px solid #8A663F;
+    background-color: #8A663F;
+    color: white;
+    cursor: default;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.social h3{
+    position: relative;
+    left: 0px;
+}
+
+.icon-container{
+    position: absolute;
+    top: 50px;
+    right: 220px;
+}
+
+.twit-icon, .ig-icon, .fb-icon{
+    color: black;
+    margin-top: 10px;
+    font-size: 40px;
+    background-color: #8A663F;
+    border-radius: 80%;
+    width: 150%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ig-icon a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.twit-icon a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.fb-icon a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.twit-txt{
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    cursor: default;
+    font-size: 20px;
+}
+
+.ig-txt{
+    position: absolute;
+    top: 4.8rem;
+    left: 70px;
+    cursor: default;
+    font-size: 20px;
+}
+
+.fb-txt{
+    position: absolute;
+    top: 8.8rem;
+    left: 70px;
+    cursor: default;
+    font-size: 20px;
+}
+
+/*=================================================================================================*/
+#music {
+    height: 95vh;
+    width: 100%;
+    margin-top: 3rem;
+}
+.music-title-container {
+    height: 253px;
+    display: flex;
+    justify-content: center;
+}
+.music-container{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    top: 20rem;
+}
+
+.music-title{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #8A663F;
+    background-color: #8A663F;
+    color: white;
+    cursor: default;
+  
+}
+
+.music-title h3{
+    left: 2px;
+}
+
+.music-1-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    
+}
+
+.music-1{
+    
+    top: 200px;
+    left:-200px;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 3px 3px 10px 3px #8A663F;
+}
+
+.music-pic{
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}

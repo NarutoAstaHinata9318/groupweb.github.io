@@ -1,0 +1,93 @@
+body {
+    background-color: #F6E5D9;
+    margin: 0;
+    padding: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .logo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.profile-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 50px;
+}
+
+.pic-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.name{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.carille, .rjay, .josh, .lhey, .gyd {
+    border: 1px solid none;
+    background-image: url(https://media.tenor.com/XxTjC4qBdJAAAAAi/borboletas-butterflies.gif);
+    box-shadow: 3px 3px 10px 3px #8A663F;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.carille:hover{
+    background-position: right center;
+    transform: scale(1.02,1.02);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.rjay:hover{
+    background-position: right center;
+    transform: scale(1.02,1.02);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.josh:hover{
+    background-position: right center;
+    transform: scale(1.02,1.02);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.lhey:hover{
+    background-position: right center;
+    transform: scale(1.02,1.02);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.gyd:hover{
+    background-position: right center;
+    transform: scale(1.02,1.02);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
